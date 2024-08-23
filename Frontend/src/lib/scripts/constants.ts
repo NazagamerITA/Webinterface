@@ -1,4 +1,4 @@
-export const BASE_PATH = import.meta.env.VITE_API_URL || "https://whee6panel.nazagamerita.com"
+export const BASE_PATH = import.meta.env.VITE_API_URL || "https://ryzebackend.nazagamerita.com"
 export const INVITE_URL = import.meta.env.VITE_INVITE_URL || "https://discord.com/oauth2/authorize?client_id=1207737052968263730"
 
 export function get(path: string) {
